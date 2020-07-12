@@ -1,0 +1,6 @@
+docker exec -it golang_db bash -l
+docker exec -it golang_app bash -l
+mysql -u root -p
+
+docker exec -it my-mongo-container bash
+mongo -u root --authenticationDatabase test_mongo
