@@ -31,7 +31,7 @@ services:
       - "./app:/app"
     container_name: golang_app
     ports:
-      - "8080:8080"
+      - "8080:8081"
     tty: true
     depends_on:
       - db
